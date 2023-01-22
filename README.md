@@ -3,7 +3,7 @@
 ## response.json dosyasının okunabilmesi için dosyayı exe ile aynı dizine taşıyınız ya da program.cs içerisindeki dosya yolunu güncelleyiniz.
 
 ## Nasıl çalışır
-Projeyi çalıştırdığınızda Statics klasöründe olan response.json dosyasını okur ve hazırlanan modellere parse eder. Doldurulan listenin ilk datasını ekrana yazdırır.
+Projeyi çalıştırdığınızda response.json dosyasını okur ve hazırlanan modellere parse eder. Doldurulan listenin ilk datasını ekrana yazdırır.
 
 ## Response.json
 ```json
