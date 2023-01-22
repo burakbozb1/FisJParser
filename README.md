@@ -4,7 +4,8 @@
 ```csharp
 using (StreamReader r = new StreamReader(@"BU KISMI GÜNCELLEYİN"))
 ```
-
+## Nasıl çalışır
+Projeyi çalıştırdığınızda statik klasöründe olan response.json dosyasını okur ve hazırlanan modellere parse eder. Json içerisinde bulunan ilk satırı ekrana yazdırır.
 
 ## Response.json
 ```json
@@ -87,5 +88,4 @@ public class Vertice
 }
 ```
 
-## Nasıl çalışır
-Projeyi çalıştırdığınızda statik klasöründe olan response.json dosyasını okur ve hazırlanan modellere parse eder. Json içerisinde bulunan ilk satırı ekrana yazdırır.
+
