@@ -1,7 +1,7 @@
 # FisJParser
 
 ## Nasıl çalışır
-Projeyi çalıştırdığınızda Statics klasöründe olan response.json dosyasını okur ve hazırlanan modellere parse eder. Json içerisinde bulunan ilk satırı ekrana yazdırır.
+Projeyi çalıştırdığınızda Statics klasöründe olan response.json dosyasını okur ve hazırlanan modellere parse eder. Doldurulan listenin ilk datasını ekrana yazdırır.
 
 ## Response.json
 ```json
