@@ -1,7 +1,10 @@
 ﻿using FisJParser.Models;
+using System.Reflection;
+using System.Text;
 using System.Text.Json;
 
 List<ReceiptModel> data = new List<ReceiptModel>();
+
 using (StreamReader r = new StreamReader(@"response.json"))
 {
     string json = r.ReadToEnd();
