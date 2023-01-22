@@ -1,9 +1,5 @@
 # FisJParser
 
-#### Lütfen response.json dosyasının yolunu program.cs içerisinden uygun şekilde güncelleyiniz.
-```csharp
-using (StreamReader r = new StreamReader(@"BU KISMI GÜNCELLEYİN"))
-```
 ## Nasıl çalışır
 Projeyi çalıştırdığınızda Statics klasöründe olan response.json dosyasını okur ve hazırlanan modellere parse eder. Json içerisinde bulunan ilk satırı ekrana yazdırır.
 
