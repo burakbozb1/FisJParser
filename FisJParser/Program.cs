@@ -2,7 +2,7 @@
 using System.Text.Json;
 
 List<ReceiptModel> data = new List<ReceiptModel>();
-using (StreamReader r = new StreamReader(@"C:\Users\burak\source\repos\FisJParser\FisJParser\Statics\response.json"))
+using (StreamReader r = new StreamReader(@"response.json"))
 {
     string json = r.ReadToEnd();
     data = JsonSerializer.Deserialize<List<ReceiptModel>>(json);
