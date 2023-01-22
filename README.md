@@ -1,6 +1,6 @@
 # FisJParser
 
-## Lütfen dosyanın yolunu program.cs içerisinden uygun şekilde güncelleyiniz.
+#### Lütfen response.json dosyasının yolunu program.cs içerisinden uygun şekilde güncelleyiniz.
 ```csharp
 using (StreamReader r = new StreamReader(@"BU KISMI GÜNCELLEYİN"))
 ```
